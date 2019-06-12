@@ -1,0 +1,7 @@
+Bundle-SymbolicName: custom.negative.facet
+Bundle-Version: 1.0.0
+Import-Package:\
+	!com.liferay.util.xml,\
+	\
+	*
+-dsannotations-options: inherit
