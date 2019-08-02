@@ -1,0 +1,60 @@
+$clay-unset: clay-unset !default;
+$clay-unset-placeholder: clay-unset-placeholder !default;
+
+$enable-scaling-components: false !default;
+$scaling-breakpoint-down: sm !default;
+
+$rounded-border-radius: $border-radius !default;
+$rounded-circle-border-radius: 5000px !default;
+$rounded-0-border-radius: 0 !default;
+
+// Cursors
+
+$link-cursor: pointer !default;
+$disabled-cursor: not-allowed !default;
+
+// Containers
+
+$container-form-lg: () !default;
+$container-form-lg: map-merge((
+	breakpoint-up: lg,
+	padding-bottom: 3rem,
+	padding-top: 3rem,
+	padding-bottom-mobile: 1rem,
+	padding-top-mobile: 1rem
+), $container-form-lg);
+
+$container-view: () !default;
+$container-view: map-merge((
+	padding-bottom: 1.5rem,
+	padding-top: 1.5rem
+), $container-view);
+
+// Fonts
+
+$font-import-url: null !default;
+
+$font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+
+$font-size-base-mobile: $font-size-base !default;
+$font-size-lg-mobile: $font-size-lg !default;
+
+$font-weight-semi-bold: 500 !default;
+$font-weight-bolder: 900 !default;
+
+$h1-font-size-mobile: null !default;
+$h2-font-size-mobile: null !default;
+$h3-font-size-mobile: null !default;
+$h4-font-size-mobile: null !default;
+$h5-font-size-mobile: null !default;
+$h6-font-size-mobile: null !default;
+
+// Z-Index Variables
+
+$zindex-alert-notifications: 5000 !default;
+$zindex-input-group-hover: 3 !default;
+$zindex-input-group-focus: $zindex-input-group-hover + 1 !default; // 4
+$zindex-navbar-collapse-absolute: 500 !default;
+$zindex-navbar-overlay: 450 !default;
+$zindex-navbar-toggler-focus: 525 !default;
+$zindex-sidenav: $zindex-fixed + 5 !default;
