@@ -8,15 +8,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>0</groupId>
 	<artifactId>projectName-71</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<properties>
 		<com.liferay.css.builder.outputDir>${project.build.directory}/build-css</com.liferay.css.builder.outputDir>
 		<com.liferay.portal.tools.theme.builder.outputDir>target/build-theme</com.liferay.portal.tools.theme.builder.outputDir>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<com.liferay.frontend.css.common.version>3.0.1</com.liferay.frontend.css.common.version>
-		<com.liferay.frontend.theme.styled.version>3.0.4</com.liferay.frontend.theme.styled.version>
-		<com.liferay.frontend.theme.unstyled.version>3.0.4</com.liferay.frontend.theme.unstyled.version>
+		<com.liferay.frontend.css.common.version>4.0.1</com.liferay.frontend.css.common.version>
+		<com.liferay.frontend.theme.styled.version>4.0.14</com.liferay.frontend.theme.styled.version>
+		<com.liferay.frontend.theme.unstyled.version>4.0.7</com.liferay.frontend.theme.unstyled.version>
 	</properties>
 	<build>
 		<plugins>
