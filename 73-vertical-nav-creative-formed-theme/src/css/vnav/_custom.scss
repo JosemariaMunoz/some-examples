@@ -1,0 +1,381 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports 
+
+@import 'liferay-font-awesome/scss/font-awesome';
+@import 'liferay-font-awesome/scss/glyphicons';*/
+
+
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+@import 'vnav/variables';
+@import 'vnav/main';
+@import 'vnav/demo';
+
+#banner {
+    z-index: 100;
+}
+
+#vnav-ham {
+    z-index: 102;
+}
+
+#wrapper {
+    padding-top: 0 !important;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+.custom-logo {
+    max-height: 40px;
+    width: auto;
+}
+
+#left-sidebar-nav .user-account {
+    margin: 10px auto 20px auto;
+    text-align: center;
+}
+
+.separation-bar{
+    border-bottom: 1px solid white;
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+
+#left-sidebar .sticker-lg {
+    font-size: 1.125rem;
+    height: 3.5rem;
+    line-height: 2.5rem;
+    width: 3.5rem;
+}
+
+#left-sidebar .user-avatar-link {
+    a {
+        position: absolute;
+    }
+}
+
+.btn span:first-child {
+    margin-right: 0px;
+}
+
+#main-content {
+    padding-top: 0px;
+    padding-bottom: 0;
+    > #main-content {
+        float: none;
+        width: 100%;
+    }
+}
+
+#left-sidebar {
+    padding-top: 146px;
+    margin-top: 0px;
+    @include media-breakpoint-down(sm) { padding-top: 33px; }
+    background-color: var(--left-sidebar-background-color, $leftSidebarBackgroundColor);
+    border-right: 1px solid var(--left-sidebar-background-color, $leftSidebarBackgroundColor);
+    position: absolute;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 972;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.autofit-float.autofit-row.portlet-header {
+    display: none;
+}
+
+.search-form {
+    padding-right: 15px;
+    padding-top: 7px;
+}
+
+.open #left-sidebar {
+    left: 320px;
+}
+
+.sidebar {
+    overflow: visible;
+}
+
+.navbar-btn {
+    @include media-breakpoint-up(md) { display: none; }
+}
+
+
+footer {
+	padding: 30px;
+	background-color: var(--left-sidebar-background-color, $leftSidebarBackgroundColor);
+    color: white;
+    .powered-by {
+        margin-bottom: 0;
+    }
+}
+
+.menu_user_nav {
+    padding-top: 11px;
+}
+
+.menu_user_nav > a {
+    color: #a3a5ad !important;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 5px 15px !important;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    display: block !important;
+    top: 0;
+    box-shadow: 0px 3px 0px #ededed;
+}
+.menu_user_nav > a:hover {
+    background-color: #8cc80c !important;
+    box-shadow: 0 3px #6E9E08 !important;
+    color: #fff !important;
+}
+
+.navbar-default{
+    background-color: var(--left-sidebar-background-color, $leftSidebarBackgroundColor);
+    border-bottom: 1px solid var(--left-sidebar-background-color, $leftSidebarBackgroundColor);
+}
+
+a, button {
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+}
+/*
+[class^="f-icon-"]:before, [class*=" f-icon-"]:before {
+    line-height: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    width: auto;
+    margin: 0;
+}
+
+[class^="f-icon-"]:before, [class*=" f-icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}*/
+  /* font-size: 120%; */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+.menu_user_nav .popup_link:before {
+    margin-right: 7px;
+}
+
+.dropdown-toggle.user-name {
+    color:white;
+}
+
+.sidebar-nav .metismenu a {
+    color: white;
+}
+
+.sidebar-nav .metismenu > li.active > a {
+    border-left-color: var(--left-sidebar-border-left-color, $leftSidebarBorderLeftColor);
+    background-color: var(--left-sidebar-selection-color, $leftSidebarSelectionColor);
+}
+
+.sidebar-nav .metismenu a:hover, .sidebar-nav .metismenu a:focus, .sidebar-nav .metismenu a:active {
+    background: var(--left-sidebar-selection-color, $leftSidebarSelectionColor);
+}
+
+.fragments-editor-toolbar button.btn-secondary {
+    color: white !important;
+}
+
+div#p_p_id_com_liferay_login_web_portlet_LoginPortlet_ {
+    padding: 15px;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="search"], input[type="password"], textarea {
+    /*border: none;*/
+    background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.input-group-inset-item {
+    background-color: #FFF;
+    border-color: var(--primary, $primary);
+}
+
+.input-group-inset:focus ~ .input-group-inset-item {
+    background-color: #8cc80c;
+    border-color: #8cc80c;
+  }
+
+
+.btn-default {
+    color: var(--primary, $primary);
+    background-color: #67d3e0;
+    border-color: #67d3e0;
+}
+
+@media (min-width: 768px) {
+.navbar-underline.navbar-expand-md .navbar-nav .nav-link.active:after, .navbar-underline.navbar-expand-md .navbar-nav .nav-underline .tab a.active:after, .nav-underline .tab .navbar-underline.navbar-expand-md .navbar-nav a.active:after, .navbar-underline.navbar-expand-md .navbar-nav .nav-underline .tab.active a:after, .nav-underline .tab.active .navbar-underline.navbar-expand-md .navbar-nav a:after {
+    background-color: var(--left-sidebar-selection-color, $leftSidebarSelectionColor);
+}}
+
+.alert-info {
+    color: #fff;
+    background-color: #67d3e0;
+    border-color: #67d3e0;
+    a {
+        color: white;
+    }
+}
+
+a {
+    color: #67d3e0;
+}
+a:hover, a:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.input-group-inset-item {
+    background-color: #67d3e0;
+    border-color: #67d3e0;
+    color: white;
+}
+
+.navbar-form {
+    padding-top: 7px;
+}
+
+input#_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_olcl {
+    height: 36px;
+}
+
+/* calendar */
+
+div#p_p_id_com_liferay_calendar_web_portlet_CalendarPortlet_INSTANCE_qc0CrkUllVh9_ {
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding-top: 20px;
+    box-shadow: 1px 2px #f2f2f2;
+}
+
+/* Announcements */
+div#p_p_id_com_liferay_announcements_web_portlet_AnnouncementsPortlet_ {
+    padding: 20px;
+    padding-bottom: 0;
+    background-color: white;
+    box-shadow: 1px 2px #f2f2f2;
+}
+.card-col-field {
+    vertical-align: top;
+}
+
+.card-col-content > h4 {
+    color: #67D3E0;
+    margin-left: -10px;
+}
+
+/*Asset Publisher*/
+div.portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_ {
+    padding: 10px;
+    padding-bottom: 2px;
+    background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 1px 2px #f2f2f2;
+}
+
+.sheet-section {
+    margin-bottom: 0;
+}
+
+/* for contents */
+.sc_infobox.sc_infobox_style {
+    background-color: #67D3E0;
+    color: #fff;
+}
+
+.sc_infobox.sc_infobox_closeable {
+    cursor: pointer;
+}
+
+.sc_infobox {
+    padding: 30px 20px 35px 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.sc_infobox {
+    display: block;
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    clear: both;
+    box-shadow: 1px 2px #f2f2f2;
+    position: relative;
+}
+
+.sc_infobox_title {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Lato, sans-serif;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.sc_infobox p {
+    margin: 0;
+}
+
+/*.sc_infobox.sc_infobox_closeable:after {
+    content: '\e8fe';
+    font-family: "fontello";
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    line-height: 13px;
+}*/
+
+button.btn-toggle-offcanvas {
+    color: var(--white);
+}
+
+
