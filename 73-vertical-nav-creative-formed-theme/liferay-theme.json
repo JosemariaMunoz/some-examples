@@ -1,9 +1,0 @@
-{
-  "LiferayTheme": {
-    "appServerPath": "/Users/josemariamunoz/Documents/demos/7.3/liferay-dxp-7.3.10-ga1/tomcat-9.0.37",
-    "deployPath": "/Users/josemariamunoz/Documents/demos/7.3/liferay-dxp-7.3.10-ga1/deploy",
-    "deployed": true,
-    "deploymentStrategy": "LocalAppServer",
-    "url": "http://localhost:8080"
-  }
-}
