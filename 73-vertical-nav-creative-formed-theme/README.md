@@ -1,6 +1,6 @@
-# Custom 7.3 Theme Based on Liferay's Classic Theme (Evan) + 
-# Custom Creative 7.3 B2B commerce enabled theme (Kris) +
-# Custom 7.3 Theme with a Vertical Navigation Menu (for a self services portal) and more configuration options.
+### Custom 7.3 Theme Based on Liferay's Classic Theme (Evan) + 
+### Custom Creative 7.3 B2B commerce enabled theme (Kris) +
+### Custom 7.3 Theme with a Vertical Navigation Menu (for a self services portal) and more configuration options.
 
 A simple Liferay theme that allows for easy customization of the color scheme using Style Books.
 
@@ -14,7 +14,7 @@ The new features for this theme are the possibility to configure a vertical navi
 2. `npm run init`
 3. `npm run deploy`
 
-![screenshot](/images/vertical-navigation-theme-screenshot.png)
+![screenshot](/73-vertical-nav-creative-formed-theme/images/vertical-navigation-theme-screenshot.png)
 
 ### Features
 
