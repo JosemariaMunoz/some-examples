@@ -28,7 +28,7 @@
 				<li class="${nav_item_css_class}" id="layout_${nav_item.getLayoutId()}" role="presentation">
 					<a aria-labelledby="layout_${nav_item.getLayoutId()}" ${nav_item_attr_has_popup} href="${nav_item.getURL()}" ${nav_item.getTarget()} role="menuitem" class="has-arrow" aria-expanded="false"><i class="fa ${layout_icon}"></i><span><@liferay_theme["layout-icon"] layout=nav_item_layout /> ${nav_item.getName()}</span></a>
 
-					<ul class="child-menu" role="menu" aria-expanded="true">
+					<ul class="child-menu collapse" role="menu" aria-expanded="false">
 						<#list nav_item.getChildren() as nav_child>
 							<#assign
 								nav_child_css_class = ""

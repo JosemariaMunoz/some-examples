@@ -7,6 +7,7 @@
 	show_mini_cart = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-mini-cart"))
 	show_navigator_menu_header = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-navigator-menu-header"))
 	show_vertical_menu = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-vertical-menu"))
+	show_lower_header = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-lower-header"))
 />
 
 <#if wrap_widget_page_content && ((layout.isTypeContent() && themeDisplay.isStateMaximized()) || (layout.getType() == "portlet"))>

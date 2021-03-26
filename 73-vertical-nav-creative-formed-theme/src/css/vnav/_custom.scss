@@ -378,4 +378,6 @@ button.btn-toggle-offcanvas {
     color: var(--white);
 }
 
-
+.navbar .container, .navbar .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl {
+    background-color: var(--body-bg, $body-bg);
+}
