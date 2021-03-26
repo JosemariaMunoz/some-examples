@@ -7,7 +7,7 @@ This is a Widget Template or Application Display Template (ADT) for Asset Publis
 
 Asset Publisher allow grouping by categories, if so the Asset Publisher will show a title for each group of assets as you can see in the screenshots.
 
-![screenshot](/utils/ADTs/button-cards-asset-publisher/screenshots/button-cards-asset-publisher-gruped-by-categories.png)
+![screenshot](/utils/ADTs/button-cards-asset-publisher/screenshots/button-cards-asset-publisher-grupedby-categories.png)
 
 The ADT was built in a simple way, the hover background color is the secondary color defined in your theme (or Style Book) and it is based on bootstrap. It is easy to add more information or changes to the cards in case you want to do it for your specific use case.
 
