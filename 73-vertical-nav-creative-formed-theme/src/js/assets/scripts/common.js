@@ -17,6 +17,7 @@ $(document).ready(function() {
 			$('body').addClass('layout-fullwidth');
 			$('#content').addClass('w-100');
 			$('#footer').addClass('w-100');
+			$('#over-main-content').addClass('w-100');
 			$(this).find(".fa").toggleClass('fa-angle-left fa-angle-right');
 
 			$(this).animate({
@@ -27,6 +28,7 @@ $(document).ready(function() {
 			$('body').removeClass('layout-fullwidth');
 			$('#content').removeClass('w-100');
 			$('#footer').removeClass('w-100');
+			$('#over-main-content').removeClass('w-100');
 			$(this).find(".fa").toggleClass('fa-angle-left fa-angle-right');
 
 			$(this).animate({

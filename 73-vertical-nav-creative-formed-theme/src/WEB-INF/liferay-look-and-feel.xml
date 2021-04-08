@@ -19,8 +19,9 @@
       <setting configurable="true" key="show-account-selector" type="checkbox" value="false"/>
       <setting configurable="true" key="show-mini-cart" type="checkbox" value="false"/>
       <setting configurable="true" key="show-navigator-menu-header" type="checkbox" value="true"/>
-      <setting configurable="true" key="show-vertical-menu" type="checkbox" value="false"/>
       <setting configurable="true" key="show-lower-header" type="checkbox" value="true"/>
+      <setting configurable="true" key="show-vertical-menu" type="checkbox" value="false"/>   
+      <setting configurable="true" key="show-vertical-commerce-header" type="checkbox" value="false"/>
     </settings>
     <roles>
       <role-name>User</role-name>

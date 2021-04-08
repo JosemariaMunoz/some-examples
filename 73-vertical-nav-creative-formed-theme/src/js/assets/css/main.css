@@ -73,7 +73,7 @@ footer {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  width: calc(100% - 250px);
+  width: 100%;
   float: right;
   position: relative;
   padding-top: 90px;

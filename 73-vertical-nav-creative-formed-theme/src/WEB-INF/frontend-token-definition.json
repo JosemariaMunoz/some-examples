@@ -18,7 +18,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "#67d3e0",
+							"defaultValue": "#2b4d88",
 							"editorType": "ColorPicker",
 							"label": "left-sidebar-selection-color",
 							"mappings": [
@@ -369,7 +369,7 @@
 				{
 					"frontendTokens": [
 						{
-							"defaultValue": "#0b5fff",
+							"defaultValue": "#2a2f43",
 							"editorType": "ColorPicker",
 							"label": "primary",
 							"mappings": [
@@ -382,7 +382,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "#6b6c7e",
+							"defaultValue": "#2b4d88",
 							"editorType": "ColorPicker",
 							"label": "secondary",
 							"mappings": [
@@ -629,7 +629,7 @@
 				{
 					"frontendTokens": [
 						{
-							"defaultValue": "#fff",
+							"defaultValue": "#fafafa",
 							"editorType": "ColorPicker",
 							"label": "body-bg",
 							"mappings": [
@@ -1383,7 +1383,7 @@
 				{
 					"frontendTokens": [
 						{
-							"defaultValue": "#0b5fff",
+							"defaultValue": "#e95959",
 							"editorType": "ColorPicker",
 							"label": "background-color",
 							"mappings": [
@@ -1396,7 +1396,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "#0b5fff",
+							"defaultValue": "#e95959",
 							"editorType": "ColorPicker",
 							"label": "border-color",
 							"mappings": [
@@ -1422,7 +1422,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "#0053f0",
+							"defaultValue": "#2b4d88",
 							"editorType": "ColorPicker",
 							"label": "hover-background-color",
 							"mappings": [
@@ -1435,7 +1435,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "transparent",
+							"defaultValue": "#2b4d88",
 							"editorType": "ColorPicker",
 							"label": "hover-border-color",
 							"mappings": [
@@ -1551,7 +1551,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "#cdced9",
+							"defaultValue": "#2a2f43",
 							"editorType": "ColorPicker",
 							"label": "border-color",
 							"mappings": [
@@ -1577,7 +1577,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "#f7f8f9",
+							"defaultValue": "#2b4d88",
 							"editorType": "ColorPicker",
 							"label": "hover-background-color",
 							"mappings": [
@@ -1590,7 +1590,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "#cdced9",
+							"defaultValue": "#2b4d88",
 							"editorType": "ColorPicker",
 							"label": "hover-border-color",
 							"mappings": [

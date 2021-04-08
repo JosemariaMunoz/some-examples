@@ -114,7 +114,9 @@
 				</button>
 				<div class="sidebar-scroll">
 					<div class="user-account">
-
+						<#if !is_signed_in>					
+							<a style="margin-right: 10px" class="sign-in text-default" data-redirect="${is_login_redirect_required?string}" href="javascript:void(0)" onclick="$('#loginCardContainer').css('visibility', 'visible');" id="sign-in" rel="nofollow">${sign_in_text}</a>
+						</#if>
 						<#if is_signed_in>
 							<div class="user-personal-bar">
 								<@liferay.user_personal_bar />
@@ -131,21 +133,29 @@
 			</div>
 		</#if>
 		<!-- END LEFT SIDEBAR -->
+
+		<!-- COMMERCE HEADER FOR VERTICAL MENU -->
+		<#if show_vertical_commerce_header>
+			<#include "${full_templates_path}/vertical_commerce_header.ftl" />
+		</#if>
+		<!-- COMMERCE HEADER FOR VERTICAL MENU -->
 		<section class="${portal_content_css_class} minium-frame flex-fill ${section_content_css_class}" id="content">
 
 			<h2 class="sr-only" role="heading" aria-level="1">${the_title}</h2>
 
-			<#if selectable>
-				<@liferay_util["include"] page=content_include />
-			<#else>
-				${portletDisplay.recycle()}
-
-				${portletDisplay.setTitle(the_title)}
-
-				<@liferay_theme["wrap-portlet"] page="portlet.ftl">
+			<div id="over-main-content" class="over_main_content_css_class">
+				<#if selectable>
 					<@liferay_util["include"] page=content_include />
-				</@>
-			</#if>
+				<#else>
+					${portletDisplay.recycle()}
+
+					${portletDisplay.setTitle(the_title)}
+
+					<@liferay_theme["wrap-portlet"] page="portlet.ftl">
+						<@liferay_util["include"] page=content_include />
+					</@>
+				</#if>
+			</div>
 		</section>
 
 		<#if show_footer>		

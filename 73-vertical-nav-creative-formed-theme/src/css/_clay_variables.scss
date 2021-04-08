@@ -44,27 +44,3 @@ $compat-toggle_card: false;
 $compat-utilities: false;
 
 
-// Custom changes
-
-$primary: #2a2f43;
-$secondary: #67d3e0;
-$body-bg: #fafafa;
-
-
-$btn-primary: (
-	color: #fff,
-	bg: #e95959,
-	border-color: #e95959,
-    hover-bg: $secondary,
-	hover-border-color: $secondary,
-);
-
-$btn-secondary: (
-	color: $primary,
-	bg: #fff,
-	border-color: $primary,
-    hover-bg: $secondary,
-	hover-border-color: $secondary,
-);
-
-// --------

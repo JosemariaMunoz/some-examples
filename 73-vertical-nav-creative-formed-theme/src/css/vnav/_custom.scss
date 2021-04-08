@@ -73,6 +73,13 @@
     }
 }
 
+#over-main-content {
+    @include transition(all .3s ease-in-out);
+    width: calc(100% - 250px);
+    @include media-breakpoint-down(sm) { width:100% }
+    float: right;
+}
+
 #left-sidebar {
     padding-top: 146px;
     margin-top: 0px;
@@ -378,6 +385,19 @@ button.btn-toggle-offcanvas {
     color: var(--white);
 }
 
-.navbar .container, .navbar .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl {
+/*.navbar .container, .navbar .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl {
     background-color: var(--body-bg, $body-bg);
+}*/
+
+.navbar .container, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl {
+    background-color: var(--body-bg, $body-bg);
+}
+
+
+#vertical-commerce-header {
+    background-color: var(--left-sidebar-background-color, $leftSidebarBackgroundColor);
+}
+
+.commerce-topbar-button {
+    background-color: var(--left-sidebar-background-color);
 }

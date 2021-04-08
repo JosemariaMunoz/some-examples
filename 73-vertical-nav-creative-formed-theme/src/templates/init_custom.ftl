@@ -8,6 +8,7 @@
 	show_navigator_menu_header = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-navigator-menu-header"))
 	show_vertical_menu = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-vertical-menu"))
 	show_lower_header = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-lower-header"))
+	show_vertical_commerce_header = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-vertical-commerce-header"))
 />
 
 <#if wrap_widget_page_content && ((layout.isTypeContent() && themeDisplay.isStateMaximized()) || (layout.getType() == "portlet"))>
@@ -30,8 +31,9 @@
 <#assign left_sidebar_css_class = "" />
 <#assign section_content_css_class = "" />
 <#assign footer_css_class = "" />
+<#assign over_main_content_css_class = "" />
 <#if show_vertical_menu>
-	<#assign footer_css_class = "align-self-end" />
+	<#assign footer_css_class = "align-self-end footer-sidebar" />
 	<#assign section_content_css_class = "align-self-end" />
 	<#if show_header>
 		<#assign left_sidebar_css_class = "" />
@@ -40,4 +42,5 @@
 	</#if>
 <#else>
 	<#assign section_content_css_class = "w-100" />
+	<#assign over_main_content_css_class = "w-100" />
 </#if>
