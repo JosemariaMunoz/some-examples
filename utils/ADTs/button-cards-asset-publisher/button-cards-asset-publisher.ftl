@@ -1,6 +1,7 @@
 <style>
     .card:hover {
       background-color: var(--secondary) !important;
+      color: #fff;
     }
     .custom-card-text {
         min-height: 135px;
