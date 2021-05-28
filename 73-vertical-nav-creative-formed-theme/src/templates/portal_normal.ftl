@@ -121,7 +121,7 @@
 							<div class="user-personal-bar">
 								<@liferay.user_personal_bar />
 								
-								<div class="dropdown-toggle user-name">Hello, <strong>${user_name}</strong></div>
+								<div class="dropdown-toggle user-name"><@liferay.language key="welcome" />, <strong>${user_name}</strong></div>
 							</div>
 						</#if>
 					</div>
@@ -143,7 +143,7 @@
 
 			<h2 class="sr-only" role="heading" aria-level="1">${the_title}</h2>
 
-			<div id="over-main-content" class="over_main_content_css_class">
+			<div id="over-main-content" class="${over_main_content_css_class}">
 				<#if selectable>
 					<@liferay_util["include"] page=content_include />
 				<#else>

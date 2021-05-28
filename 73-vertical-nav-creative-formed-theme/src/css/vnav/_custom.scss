@@ -396,8 +396,9 @@ button.btn-toggle-offcanvas {
 
 #vertical-commerce-header {
     background-color: var(--left-sidebar-background-color, $leftSidebarBackgroundColor);
+    
+    .commerce-topbar-button {
+        background-color: var(--left-sidebar-background-color);
+    }
 }
 
-.commerce-topbar-button {
-    background-color: var(--left-sidebar-background-color);
-}

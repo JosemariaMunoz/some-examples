@@ -34,3 +34,13 @@ The new features for this theme are the possibility to configure a vertical navi
 * Theme settings to show/hidde the vertical navigation menu and/or show/hidde the navigation menu from the header.
 
 Thanks Evan and Kris!
+
+### Theme Settings Mapping
+
+![screenshot](/73-vertical-nav-creative-formed-theme/images/theme-settings-mapping.png)
+
+### Some Screenshots
+
+![screenshot](/73-vertical-nav-creative-formed-theme/images/schreenshot-dashboard.png)
+
+![screenshot](/73-vertical-nav-creative-formed-theme/images/schreenshot-commerce.png)
