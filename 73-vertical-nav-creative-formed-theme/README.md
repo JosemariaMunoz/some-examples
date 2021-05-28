@@ -6,7 +6,7 @@ A simple Liferay theme that allows for easy customization of the color scheme us
 
 The theme also has an override of Liferay Clay based on the popular Bootstrap Creative theme and the Minium B2B demo theme for commerce (From Kris's Theme: https://github.com/kristianp335/73-creative-formed-theme).
 
-The new features for this theme are the possibility to configure a vertical navigation menu (as an example of a self service portal), change the menu colors via Style Books and some capabillities related to show/hidde the vertical navigation menu and/or show/hidde the navigation menu from the header (in case you do not want to use it but you want to keep showing the header).    
+The new features for this theme are the possibility to configure a vertical navigation menu (as an example of a self service portal), change the menu colors via Style Books and some capabillities related to show/hidde the vertical navigation menu and/or show/hidde the navigation menu from the header and the rest of the items.  
 
 ### Set Up
 
