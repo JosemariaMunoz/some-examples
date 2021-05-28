@@ -2,9 +2,9 @@
 ### Custom Creative 7.3 B2B commerce enabled theme (Kris) +
 ### Custom 7.3 Theme with a Vertical Navigation Menu (for a self services portal) and more configuration options.
 
-A simple Liferay theme that allows for easy customization of the color scheme using Style Books.
+A simple Liferay theme that allows for easy customization of the color scheme using Style Books (From Evan's Theme: https://github.com/lfrsales/73-formed-theme).
 
-The theme also has an override of Liferay Clay based on the popular Bootstrap Creative theme and the Minium B2B demo theme for commerce.
+The theme also has an override of Liferay Clay based on the popular Bootstrap Creative theme and the Minium B2B demo theme for commerce (From Kris's Theme: https://github.com/kristianp335/73-creative-formed-theme).
 
 The new features for this theme are the possibility to configure a vertical navigation menu (as an example of a self service portal), change the menu colors via Style Books and some capabillities related to show/hidde the vertical navigation menu and/or show/hidde the navigation menu from the header (in case you do not want to use it but you want to keep showing the header).    
 
