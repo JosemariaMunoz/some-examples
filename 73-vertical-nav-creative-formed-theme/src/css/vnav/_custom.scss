@@ -260,6 +260,10 @@ input[type="text"], input[type="number"], input[type="email"], input[type="searc
     color: #fff;
     background-color: #67d3e0;
     border-color: #67d3e0;
+    /* workaround */
+    line-height: 21px;
+    position: absolute;
+     /* end workaround */
     a {
         color: white;
     }
