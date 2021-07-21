@@ -124,6 +124,10 @@
 								<div class="dropdown-toggle user-name"><@liferay.language key="welcome" />, <strong>${user_name}</strong></div>
 							</div>
 						</#if>
+						
+					</div>
+					<div id="lang-selector-wrapper" class="d-flex justify-content-center ml-2 mr-1">
+						<@liferay.languages />
 					</div>
 					<div class="separation-bar"></div>
 					<#if has_navigation && is_setup_complete>
