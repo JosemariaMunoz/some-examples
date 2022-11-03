@@ -1,6 +1,6 @@
 # React Insurance Calculator
 
-Based on the amazing Wesley Kempa's work with React Loan Calculator (https://github.com/weskempa-liferay/react-loan-calculator), here we have the Insurance Calculator.
+Based on the ***amazing Wesley Kempa's work in React Loan Calculator (https://github.com/weskempa-liferay/react-loan-calculator)***, here we have the Insurance Calculator.
 
 Example of a multi-step react component that leverages getting and posting Liferay Object and Picklist data. This component also contains translated content for Greek, Spanish, and English based on the user's Liferay language settings.
 
@@ -11,13 +11,13 @@ This application provides the capability to calculate an insurance policy based 
 ***Fisrt Step**: Fill out the form, select covers to apply and check additional cover if proceed*
 
 <p align="center">
-  <img width="660" src="./screenshots/image1.png" style="-moz-box-shadow: 0px 6px 5px #ccc; -webkit-box-shadow: 0px 6px 5px #ccc; box-shadow: 0px 6px 5px #ccc;" />
+  <img width="660" src="./screenshots/image1.png" />
 </p>
 
 ---
 
 <p align="center">
-  <img width="660" src="./screenshots/image2.png" style="-moz-box-shadow: 0px 6px 5px #ccc; -webkit-box-shadow: 0px 6px 5px #ccc; box-shadow: 0px 6px 5px #ccc;" />
+  <img width="660" src="./screenshots/image2.png" />
 </p>
 
 ---
@@ -25,7 +25,7 @@ This application provides the capability to calculate an insurance policy based 
 ***Second Step**: Review the new Insurance Application and complete the user fields. Agent information is completed automatically*
 
 <p align="center">
-  <img width="660" src="./screenshots/image3.png" style="-moz-box-shadow: 0px 6px 5px #ccc; -webkit-box-shadow: 0px 6px 5px #ccc; box-shadow: 0px 6px 5px #ccc;" />
+  <img width="660" src="./screenshots/image3.png" />
 </p>
 
 ---
@@ -33,7 +33,7 @@ This application provides the capability to calculate an insurance policy based 
 ***Third Step**: Information is sent to Insurance Request Object Application (or Raylife Object Application)*
 
 <p align="center">
-  <img width="660" src="./screenshots/image4.png" style="-moz-box-shadow: 0px 6px 5px #ccc; -webkit-box-shadow: 0px 6px 5px #ccc; box-shadow: 0px 6px 5px #ccc;" />
+  <img width="660" src="./screenshots/image4.png" />
 </p>
 
 ---
