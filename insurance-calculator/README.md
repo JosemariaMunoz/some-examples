@@ -1,6 +1,6 @@
 # React Insurance Calculator
 
-Based on the ***amazing Wesley Kempa's work in React Loan Calculator (https://github.com/weskempa-liferay/react-loan-calculator)***, here we have the Insurance Calculator.
+**Based on Wesley Kempa's amazing work on React Loan Calculator (https://github.com/weskempa-liferay/react-loan-calculator)**, here we have the **Insurance Calculator**.
 
 Example of a multi-step react component that leverages getting and posting Liferay Object and Picklist data. This component also contains translated content for Greek, Spanish, and English based on the user's Liferay language settings.
 
