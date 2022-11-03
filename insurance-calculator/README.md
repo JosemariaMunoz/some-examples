@@ -8,30 +8,32 @@ This application provides the capability to calculate an insurance policy based 
 
 ---
 
-*Fisrt Step: Fill out the form, select covers to apply and check additional cover if proceed*
+***Fisrt Step**: Fill out the form, select covers to apply and check additional cover if proceed*
 
 <p align="center">
-  <img width="460" src="./screenshots/image1.png">
-</p>
-
-<p align="center">
-  <img width="460" src="./screenshots/image2.png">
+  <img width="660" src="./screenshots/image1.png" style="-moz-box-shadow: 0px 6px 5px #ccc; -webkit-box-shadow: 0px 6px 5px #ccc; box-shadow: 0px 6px 5px #ccc;" />
 </p>
 
 ---
 
-*Second Step: Review the new Insurance Application and complete the user fields. Agent information is completed automatically*
-
 <p align="center">
-  <img width="460" src="./screenshots/image3.png">
+  <img width="660" src="./screenshots/image2.png" style="-moz-box-shadow: 0px 6px 5px #ccc; -webkit-box-shadow: 0px 6px 5px #ccc; box-shadow: 0px 6px 5px #ccc;" />
 </p>
 
 ---
 
-*Third Step: Information is sent to Insurance Request Object Application (or Raylife Object Application)*
+***Second Step**: Review the new Insurance Application and complete the user fields. Agent information is completed automatically*
 
 <p align="center">
-  <img width="460" src="./screenshots/image4.png">
+  <img width="660" src="./screenshots/image3.png" style="-moz-box-shadow: 0px 6px 5px #ccc; -webkit-box-shadow: 0px 6px 5px #ccc; box-shadow: 0px 6px 5px #ccc;" />
+</p>
+
+---
+
+***Third Step**: Information is sent to Insurance Request Object Application (or Raylife Object Application)*
+
+<p align="center">
+  <img width="660" src="./screenshots/image4.png" style="-moz-box-shadow: 0px 6px 5px #ccc; -webkit-box-shadow: 0px 6px 5px #ccc; box-shadow: 0px 6px 5px #ccc;" />
 </p>
 
 ---
@@ -39,6 +41,7 @@ This application provides the capability to calculate an insurance policy based 
 
 ## Expected Use & Previous Steps
 This resource can be used as a 7.4 Remote App (Custom Element) or a Client Extension service for LXC and you need to follow the next steps:
+
 <br/>
 
 ### 1. Create the required Lifeary Picklist
