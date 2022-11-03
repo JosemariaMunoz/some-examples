@@ -1,4 +1,0 @@
-@mixin frontend-token($property, $token, $defaultValue) {
-	#{$property}: $defaultValue;
-	#{$property}: var($token, $defaultValue);
-}
