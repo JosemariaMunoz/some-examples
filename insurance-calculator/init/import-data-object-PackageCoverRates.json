@@ -1,0 +1,697 @@
+
+[
+  {
+    "coverID": 1,
+    "package": "full",
+    "rate": 0.146,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Building"
+  },
+  {
+    "coverID": 2,
+    "package": "full",
+    "rate": 0.146,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Improvements"
+  },
+  {
+    "coverID": 3,
+    "package": "full",
+    "rate": 0.336,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Contents"
+  },
+  {
+      "coverID": 4,
+    "package": "full",
+    "rate": 0.336,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Loss of Profit"
+  },
+  {
+    "coverID": 5,
+    "package": "full",
+    "rate": 0,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Theft of contents"
+  },
+  {
+    "coverID": 6,
+    "package": "full",
+    "rate": 0.102,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Operational Liability"
+  },
+  {
+    "coverID": 7,
+    "package": "full",
+    "rate": 0.037,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Product degradation"
+  },
+  {
+    "coverID": 8,
+    "package": "full",
+    "rate": 0.165,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Building"
+  },
+  {
+    "coverID": 9,
+    "package": "full",
+    "rate": 0.165,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Improvements of Building"
+  },
+  {
+    "coverID": 10,
+    "package": "full",
+    "rate": 0.097,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Contents"
+  },
+  {
+    "coverID": 11,
+    "package": "full",
+    "rate": 0.165,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Loss of Profit"
+  },
+  {
+    "coverID": 12,
+    "package": "compound",
+    "rate": 0.127,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Building"
+  },
+  {
+      "coverID": 13,
+    "package": "compound",
+    "rate": 0.127,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Improvements"
+  },
+  {
+    "coverID": 14,
+    "package": "compound",
+    "rate": 0.203,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Contents"
+  },
+  {
+    "coverID": 15,
+    "package": "compound",
+    "rate": 0.203,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Loss of Profit"
+  },
+  {
+    "coverID": 16,
+    "package": "compound",
+    "rate": 0.123,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Theft of contents"
+  },
+  {
+      "coverID": 17,
+    "package": "compound",
+    "rate": 0.102,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Operational Liability"
+  },
+  {
+    "coverID": 18,
+    "package": "compound",
+    "rate": 0.037,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Product degradation"
+  },
+  {
+    "coverID": 19,
+    "package": "compound",
+    "rate": 0.165,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Building"
+  },
+  {
+    "coverID": 20,
+    "package": "compound",
+    "rate": 0.165,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Improvements of Building"
+  },
+  {
+    "coverID": 21,
+    "package": "compound",
+    "rate": 0.097,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Contents"
+  },
+  {
+      "coverID": 22,
+    "package": "compound",
+    "rate": 0.165,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Loss of Profit"
+  },
+  {
+    "coverID": 23,
+    "package": "simple",
+    "rate": 0.108,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Building"
+  },
+  {
+      "coverID": 24,
+    "package": "simple",
+    "rate": 0.108,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Improvements"
+  },
+  {
+    "coverID": 25,
+    "package": "simple",
+    "rate": 0.184,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Contents"
+  },
+  {
+    "coverID": 26,
+    "package": "simple",
+    "rate": 0.184,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Loss of Profit"
+  },
+  {
+    "coverID": 27,
+    "package": "simple",
+    "rate": 0.123,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Theft of contents"
+  },
+  {
+    "coverID": 28,
+    "package": "simple",
+    "rate": 0.102,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Operational Liability"
+  },
+  {
+    "coverID": 29,
+    "package": "simple",
+    "rate": 0.037,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Product degradation"
+  },
+  {
+    "coverID": 30,
+    "package": "simple",
+    "rate": 0.165,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Building"
+  },
+  {
+    "coverID": 31,
+    "package": "simple",
+    "rate": 0.165,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Improvements of Building"
+  },
+  {
+    "coverID": 32,
+    "package": "simple",
+    "rate": 0.097,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Contents"
+  },
+  {
+    "coverID": 33,
+    "package": "simple",
+    "rate": 0.165,
+    "typeOfBusiness": "superMarketsMiniMarkets",
+    "covers": "Earthquake Loss of Profit"
+  },
+  {
+    "coverID": 34,
+    "package": "full",
+    "rate": 0.146,
+    "typeOfBusiness": "factory",
+    "covers": "Building"
+  },
+  {
+    "coverID": 35,
+    "package": "full",
+    "rate": 0.146,
+    "typeOfBusiness": "factory",
+    "covers": "Improvements"
+  },
+  {
+    "coverID": 36,
+    "package": "full",
+    "rate": 0.336,
+    "typeOfBusiness": "factory",
+    "covers": "Contents"
+  },
+  {
+      "coverID": 37,
+    "package": "full",
+    "rate": 0.336,
+    "typeOfBusiness": "factory",
+    "covers": "Loss of Profit"
+  },
+  {
+    "coverID": 38,
+    "package": "full",
+    "rate": 0,
+    "typeOfBusiness": "factory",
+    "covers": "Theft of contents"
+  },
+  {
+    "coverID": 39,
+    "package": "full",
+    "rate": 0.102,
+    "typeOfBusiness": "factory",
+    "covers": "Operational Liability"
+  },
+  {
+    "coverID": 40,
+    "package": "full",
+    "rate": 0.037,
+    "typeOfBusiness": "factory",
+    "covers": "Product degradation"
+  },
+  {
+    "coverID": 41,
+    "package": "full",
+    "rate": 0.165,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Building"
+  },
+  {
+    "coverID": 42,
+    "package": "full",
+    "rate": 0.165,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Improvements of Building"
+  },
+  {
+    "coverID": 43,
+    "package": "full",
+    "rate": 0.097,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Contents"
+  },
+  {
+    "coverID": 44,
+    "package": "full",
+    "rate": 0.165,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Loss of Profit"
+  },
+  {
+    "coverID": 45,
+    "package": "compound",
+    "rate": 0.127,
+    "typeOfBusiness": "factory",
+    "covers": "Building"
+  },
+  {
+      "coverID": 46,
+    "package": "compound",
+    "rate": 0.127,
+    "typeOfBusiness": "factory",
+    "covers": "Improvements"
+  },
+  {
+    "coverID": 47,
+    "package": "compound",
+    "rate": 0.203,
+    "typeOfBusiness": "factory",
+    "covers": "Contents"
+  },
+  {
+    "coverID": 48,
+    "package": "compound",
+    "rate": 0.203,
+    "typeOfBusiness": "factory",
+    "covers": "Loss of Profit"
+  },
+  {
+    "coverID": 49,
+    "package": "compound",
+    "rate": 0.123,
+    "typeOfBusiness": "factory",
+    "covers": "Theft of contents"
+  },
+  {
+    "coverID": 50,
+    "package": "compound",
+    "rate": 0.102,
+    "typeOfBusiness": "factory",
+    "covers": "Operational Liability"
+  },
+  {
+    "coverID": 51,
+    "package": "compound",
+    "rate": 0.037,
+    "typeOfBusiness": "factory",
+    "covers": "Product degradation"
+  },
+  {
+    "coverID": 52,
+    "package": "compound",
+    "rate": 0.165,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Building"
+  },
+  {
+    "coverID": 53,
+    "package": "compound",
+    "rate": 0.165,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Improvements of Building"
+  },
+  {
+    "coverID": 54,
+    "package": "compound",
+    "rate": 0.097,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Contents"
+  },
+  {
+    "coverID": 55,
+    "package": "compound",
+    "rate": 0.165,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Loss of Profit"
+  },
+  {
+    "coverID": 56,
+    "package": "simple",
+    "rate": 0.108,
+    "typeOfBusiness": "factory",
+    "covers": "Building"
+  },
+  {
+    "coverID": 57,
+    "package": "simple",
+    "rate": 0.108,
+    "typeOfBusiness": "factory",
+    "covers": "Improvements"
+  },
+  {
+    "coverID": 58,
+    "package": "simple",
+    "rate": 0.184,
+    "typeOfBusiness": "factory",
+    "covers": "Contents"
+  },
+  {
+    "coverID": 59,
+    "package": "simple",
+    "rate": 0.184,
+    "typeOfBusiness": "factory",
+    "covers": "Loss of Profit"
+  },
+  {
+    "coverID": 60,
+    "package": "simple",
+    "rate": 0.123,
+    "typeOfBusiness": "factory",
+    "covers": "Theft of contents"
+  },
+  {
+    "coverID": 61,
+    "package": "simple",
+    "rate": 0.102,
+    "typeOfBusiness": "factory",
+    "covers": "Operational Liability"
+  },
+  {
+    "coverID": 62,
+    "package": "simple",
+    "rate": 0.037,
+    "typeOfBusiness": "factory",
+    "covers": "Product degradation"
+  },
+  {
+    "coverID": 63,
+    "package": "simple",
+    "rate": 0.165,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Building"
+  },
+  {
+    "coverID": 64,
+    "package": "simple",
+    "rate": 0.165,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Improvements of Building"
+  },
+  {
+    "coverID": 65,
+    "package": "simple",
+    "rate": 0.097,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Contents"
+  },
+  {
+    "coverID": 66,
+    "package": "simple",
+    "rate": 0.165,
+    "typeOfBusiness": "factory",
+    "covers": "Earthquake Loss of Profit"
+  },
+  {
+    "coverID": 67,
+    "package": "full",
+    "rate": 0.116,
+    "typeOfBusiness": "restaurant",
+    "covers": "Building"
+  },
+  {
+    "coverID": 68,
+    "package": "full",
+    "rate": 0.116,
+    "typeOfBusiness": "restaurant",
+    "covers": "Improvements"
+  },
+  {
+    "coverID": 69,
+    "package": "full",
+    "rate": 0.316,
+    "typeOfBusiness": "restaurant",
+    "covers": "Contents"
+  },
+  {
+      "coverID": 70,
+    "package": "full",
+    "rate": 0.316,
+    "typeOfBusiness": "restaurant",
+    "covers": "Loss of Profit"
+  },
+  {
+    "coverID": 71,
+    "package": "full",
+    "rate": 0,
+    "typeOfBusiness": "restaurant",
+    "covers": "Theft of contents"
+  },
+  {
+    "coverID": 72,
+    "package": "full",
+    "rate": 0.002,
+    "typeOfBusiness": "restaurant",
+    "covers": "Operational Liability"
+  },
+  {
+    "coverID": 73,
+    "package": "full",
+    "rate": 0.017,
+    "typeOfBusiness": "restaurant",
+    "covers": "Product degradation"
+  },
+  {
+    "coverID": 74,
+    "package": "full",
+    "rate": 0.115,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Building"
+  },
+  {
+    "coverID": 75,
+    "package": "full",
+    "rate": 0.115,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Improvements of Building"
+  },
+  {
+    "coverID": 76,
+    "package": "full",
+    "rate": 0.007,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Contents"
+  },
+  {
+    "coverID": 77,
+    "package": "full",
+    "rate": 0.105,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Loss of Profit"
+  },
+  {
+    "coverID": 78,
+    "package": "compound",
+    "rate": 0.107,
+    "typeOfBusiness": "restaurant",
+    "covers": "Building"
+  },
+  {
+    "coverID": 79,
+    "package": "compound",
+    "rate": 0.107,
+    "typeOfBusiness": "restaurant",
+    "covers": "Improvements"
+  },
+  {
+    "coverID": 80,
+    "package": "compound",
+    "rate": 0.003,
+    "typeOfBusiness": "restaurant",
+    "covers": "Contents"
+  },
+  {
+    "coverID": 81,
+    "package": "compound",
+    "rate": 0.003,
+    "typeOfBusiness": "restaurant",
+    "covers": "Loss of Profit"
+  },
+  {
+    "coverID": 82,
+    "package": "compound",
+    "rate": 0.023,
+    "typeOfBusiness": "restaurant",
+    "covers": "Theft of contents"
+  },
+  {
+    "coverID": 83,
+    "package": "compound",
+    "rate": 0.002,
+    "typeOfBusiness": "restaurant",
+    "covers": "Operational Liability"
+  },
+  {
+    "coverID": 84,
+    "package": "compound",
+    "rate": 0.017,
+    "typeOfBusiness": "restaurant",
+    "covers": "Product degradation"
+  },
+  {
+    "coverID": 85,
+    "package": "compound",
+    "rate": 0.135,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Building"
+  },
+  {
+    "coverID": 86,
+    "package": "compound",
+    "rate": 0.135,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Improvements of Building"
+  },
+  {
+    "coverID": 87,
+    "package": "compound",
+    "rate": 0.067,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Contents"
+  },
+  {
+    "coverID": 88,
+    "package": "compound",
+    "rate": 0.145,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Loss of Profit"
+  },
+  {
+    "coverID": 89,
+    "package": "simple",
+    "rate": 0.008,
+    "typeOfBusiness": "restaurant",
+    "covers": "Building"
+  },
+  {
+    "coverID": 90,
+    "package": "simple",
+    "rate": 0.008,
+    "typeOfBusiness": "restaurant",
+    "covers": "Improvements"
+  },
+  {
+    "coverID": 91,
+    "package": "simple",
+    "rate": 0.084,
+    "typeOfBusiness": "restaurant",
+    "covers": "Contents"
+  },
+  {
+    "coverID": 92,
+    "package": "simple",
+    "rate": 0.084,
+    "typeOfBusiness": "restaurant",
+    "covers": "Loss of Profit"
+  },
+  {
+    "coverID": 93,
+    "package": "simple",
+    "rate": 0.023,
+    "typeOfBusiness": "restaurant",
+    "covers": "Theft of contents"
+  },
+  {
+    "coverID": 94,
+    "package": "simple",
+    "rate": 0.002,
+    "typeOfBusiness": "restaurant",
+    "covers": "Operational Liability"
+  },
+  {
+    "coverID": 95,
+    "package": "simple",
+    "rate": 0.007,
+    "typeOfBusiness": "restaurant",
+    "covers": "Product degradation"
+  },
+  {
+    "coverID": 96,
+    "package": "simple",
+    "rate": 0.065,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Building"
+  },
+  {
+    "coverID": 97,
+    "package": "simple",
+    "rate": 0.065,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Improvements of Building"
+  },
+  {
+    "coverID": 98,
+    "package": "simple",
+    "rate": 0.077,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Contents"
+  },
+  {
+    "coverID": 99,
+    "package": "simple",
+    "rate": 0.145,
+    "typeOfBusiness": "restaurant",
+    "covers": "Earthquake Loss of Profit"
+  }
+]
+
