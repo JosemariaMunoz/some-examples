@@ -14,7 +14,7 @@ Example of a multi-step react component that leverages getting and posting Lifer
 
 ---
 
-*Confirm the traffic ticket to pay by clicking on the confimr button*
+*Confirm the traffic ticket to pay by clicking on the confirm button*
 <p align="center">
   <img width="1024" src="./screenshots/image2.png">
 </p>
