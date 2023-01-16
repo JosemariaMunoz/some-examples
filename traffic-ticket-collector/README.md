@@ -9,14 +9,14 @@ Example of a multi-step react component that leverages getting and posting Lifer
 *Fill out the form with a Traffic Ticket Registration Number (ID Object Register) and Vehicle Registration Number*
 
 <p align="center">
-  <img width="460" src="./screenshots/image1.png">
+  <img width="1024" src="./screenshots/image1.png">
 </p>
 
 ---
 
 *Confirm the traffic ticket to pay by clicking on the confimr button*
 <p align="center">
-  <img width="460" src="./screenshots/image2.png">
+  <img width="1024" src="./screenshots/image2.png">
 </p>
 
 ---
@@ -24,7 +24,7 @@ Example of a multi-step react component that leverages getting and posting Lifer
 *Complete the payment data and continue*
 
 <p align="center">
-  <img width="460" src="./screenshots/image3.png">
+  <img width="1024" src="./screenshots/image3.png">
 </p>
 
 ---
@@ -32,7 +32,7 @@ Example of a multi-step react component that leverages getting and posting Lifer
 *Confirm the data and proceed to payment*
 
 <p align="center">
-  <img width="460" src="./screenshots/image4.png">
+  <img width="1024" src="./screenshots/image4.png">
 </p>
 
 ---
@@ -40,7 +40,7 @@ Example of a multi-step react component that leverages getting and posting Lifer
 *If payment is correct, application will provide a PDF procedure receipt to the user*
 
 <p align="center">
-  <img width="460" src="./screenshots/image5.png">
+  <img width="1024" src="./screenshots/image5.png">
 </p>
 
 ---
