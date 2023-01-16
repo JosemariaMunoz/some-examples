@@ -1,4 +1,4 @@
-# Traffic Ticket Collector
+# React Traffic Ticket Collector
 
 This application provides/simulate the capability to pay a traffic ticket based on data completed for a user agent. Data is recovered from Objects (bjects are OOTB no-code/low-code capabilities of Liferay).
 
