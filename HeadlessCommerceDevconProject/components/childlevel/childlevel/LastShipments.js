@@ -14,7 +14,7 @@ const LastShipments = (props) => {
   
   const getLastShipments = async(idChannel, idAccount) => {
     console.log('/o/headless-commerce-admin-shipment/v1.0/shipments');
-    return apiRequest('Sales Rep ', 
+    return apiRequest('/o/headless-commerce-admin-shipment/v1.0/shipments', 
     {
       method: 'GET'
     }).then(res => {
