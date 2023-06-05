@@ -11,7 +11,7 @@ import { loginStore, rolesStore, userStore } from '../../state/store';
 
 const REACT_APP_API_PATH = 'http://192.168.1.183:8080';
 //const REACT_APP_API_PATH = 'http://192.168.50.190:8080';
-const REACT_APP_VERSO_AUTH = 'id-9282c91f-18b7-a99d-3459-c8d3f74f3371';
+const REACT_APP_AUTH = 'id-9282c91f-18b7-a99d-3459-c8d3f74f3371';
 const authTokenName = 'authToken';
 
 const codes = pkceChallenge();
@@ -50,7 +50,7 @@ const getAuth = async () => {
 const refreshToken = async (auth) => {
   const refreshedToken = await apiRequest('/o/oauth2/token', {
     body: qs.stringify({
-      client_id: REACT_APP_VERSO_AUTH,
+      client_id: REACT_APP_AUTH,
       grant_type: 'refresh_token',
       refresh_token: auth.refresh_token,
       code_verifier
@@ -117,7 +117,7 @@ export const ValidateSessionWithCode = async(code) => {
   
   await apiRequest('/o/oauth2/token', {
     body: qs.stringify({
-      client_id: REACT_APP_VERSO_AUTH,
+      client_id: REACT_APP_AUTH,
       grant_type: 'authorization_code',
       code,
       redirect_uri,
