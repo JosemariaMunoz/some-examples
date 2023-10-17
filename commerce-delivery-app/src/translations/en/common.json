@@ -1,0 +1,18 @@
+{
+    "hello-world": "Hello World",
+    "step-one": "Product Selection",
+    "step-one-description": "Please, select a product to ship by clicking on the row",
+    "step-two": "Product Shipping",
+    "step-two-description": "Please, select the number of items to send",
+    "step-three": "Shipping Confirmation",
+    "step-three-description": "Please, this is the summary and confirmation of the operation",
+    "id": "id",
+    "next": "Next",
+    "back": "Back",
+    "add-more-to-truck": "Complete the truck with other products",
+    "form-step-two": "form-step-two",
+    "number-of-items": "Select the number of items to send",
+    "print": "Print Confirmation",
+    "start-again": "Start again",
+    "shipment-confirmation": "Shipment Confirmation"
+}

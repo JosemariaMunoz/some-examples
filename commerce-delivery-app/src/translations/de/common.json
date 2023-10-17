@@ -1,0 +1,18 @@
+{
+    "hello-world": "Hallo Welt",
+    "step-one": "Produktauswahl",
+    "step-one-description": "Bitte wählen Sie ein Produkt für den Versand aus",
+    "step-two": "Produktversand",
+    "step-two-description": "Bitte wählen Sie die Anzahl der zu versendenden Produkte",
+    "step-three": "Versandbestätigung",
+    "step-three-description": "Hier ist die Zusammenfassung und Bestätigung des Versandauftrags",
+    "id": "id",
+    "next": "Weiter",
+    "back": "Zurück",
+    "add-more-to-truck": "Mit weiteren Produkten bestücken",
+    "form-step-two": "form-step-two",
+    "number-of-items": "Wieviele Produkte versenden?",
+    "print": "Bestätigung drucken",
+    "start-again": "Erneut starten",
+    "shipment-confirmation": "Versandbestätigung"
+}
