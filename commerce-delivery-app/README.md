@@ -37,3 +37,8 @@ Step Three - Print Confirmation or start again
 <p align="center">
   <img width="1024" src="./screenshots/step-three.png">
 </p>
+
+# App in action
+<p align="center">
+  <img width="1024" src="./screenshots/commerce-delivery-app.gif">
+</p>
