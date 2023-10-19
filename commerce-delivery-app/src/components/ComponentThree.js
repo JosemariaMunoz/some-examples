@@ -24,7 +24,7 @@ function ComponentThree(props) {
   // Demo 
   //const warehouseId = 41137;
 
-  const { orderItemData, numberOfTrucks, shipmentQuantity, idaccount, warehouseid } = props.store;
+  const { orderItemData, numberOfTrucks, shipmentQuantity, idaccount, warehouseid, createShipment } = props.store;
 
   const currentLanguage = Liferay.ThemeDisplay.getLanguageId();
 
@@ -53,93 +53,97 @@ function ComponentThree(props) {
   }
   console.log(title);
 
-  useEffect(() => {
-    function getAccountAddresses(idAccount){
-      LiferayApi('/o/headless-commerce-admin-account/v1.0/accounts/'+idAccount+'/accountAddresses')
-      .then((result) => {
-          console.log("getAccountAddresses");
-          console.log(result);
-          //createShipment(result.data.items[0]);
-          showShipmentBody(result.data.items[0]);
-      })
-      .catch(console.log)
-    }
 
-    function showShipmentBody(addressInfo){
-      const body = {
-          "orderId": orderItemData.orderId,
-          "shipmentItems": [
-            {
-              "orderItemId": orderItemData.id,
-              "quantity": shipmentQuantity,
-              "shipmentExternalReferenceCode": "",
-              "unitOfMeasureKey": "s",
-              "validateInventory": true,
-              "warehouseId": warehouseid
-            }
-          ],
-          "shippingAddress": {
-            "city": addressInfo.city,
-            "countryISOCode": addressInfo.countryISOCode,
-            "description": addressInfo.description,
-            "id": addressInfo.id,
-            "latitude": addressInfo.latitude,
-            "longitude": addressInfo.longitude,
-            "name": addressInfo.name,
-            "phoneNumber": addressInfo.phoneNumber,
-            "regionISOCode": addressInfo.regionISOCode,
-            "street1": addressInfo.street1,
-            "street2": addressInfo.street2,
-            "street3": addressInfo.street3,
-            "zip": addressInfo.zip
-          },
-          "shippingAddressId": addressInfo.id
-        };
-      console.log(body);
-    }
-
-    function createShipment(addressInfo){
-      LiferayApi('/o/headless-commerce-admin-shipment/v1.0/shipments', {
-        method: 'POST', 
-        body: {
-          "orderId": orderItemData.orderId,
-          "shipmentItems": [
-            {
-              "orderItemId": orderItemData.id,
-              "quantity": shipmentQuantity,
-              "shipmentExternalReferenceCode": "",
-              "unitOfMeasureKey": "s",
-              "validateInventory": true,
-              "warehouseId": warehouseid
-            }
-          ],
-          "shippingAddress": {
-            "city": addressInfo.city,
-            "countryISOCode": addressInfo.countryISOCode,
-            "description": addressInfo.description,
-            "id": addressInfo.id,
-            "latitude": addressInfo.latitude,
-            "longitude": addressInfo.longitude,
-            "name": addressInfo.name,
-            "phoneNumber": addressInfo.phoneNumber,
-            "regionISOCode": addressInfo.regionISOCode,
-            "street1": addressInfo.street1,
-            "street2": addressInfo.street2,
-            "street3": addressInfo.street3,
-            "zip": addressInfo.zip
-          },
-          "shippingAddressId": addressInfo.id
-        }
-      })
-      .then((result) => {
-        console.log("Create Shipment");
+  function getAccountAddresses(idAccount){
+    LiferayApi('/o/headless-commerce-admin-account/v1.0/accounts/'+idAccount+'/accountAddresses')
+    .then((result) => {
+        console.log("getAccountAddresses");
         console.log(result);
-      })
-      .catch(console.log)
-    }
+        if(createShipment === 'true'){
+          console.log('CreateShipment');
+          callCreateShipment(result.data.items[0]);
+        }
+        console.log('showShipmentBody');
+        showShipmentBody(result.data.items[0]);
+    })
+    .catch(console.log)
+  }
 
+  function showShipmentBody(addressInfo){
+    const body = {
+        "orderId": orderItemData.orderId,
+        "shipmentItems": [
+          {
+            "orderItemId": orderItemData.id,
+            "quantity": shipmentQuantity,
+            "shipmentExternalReferenceCode": "",
+            "unitOfMeasureKey": "s",
+            "validateInventory": true,
+            "warehouseId": warehouseid
+          }
+        ],
+        "shippingAddress": {
+          "city": addressInfo.city,
+          "countryISOCode": addressInfo.countryISOCode,
+          "description": addressInfo.description,
+          "id": addressInfo.id,
+          "latitude": addressInfo.latitude,
+          "longitude": addressInfo.longitude,
+          "name": addressInfo.name,
+          "phoneNumber": addressInfo.phoneNumber,
+          "regionISOCode": addressInfo.regionISOCode,
+          "street1": addressInfo.street1,
+          "street2": addressInfo.street2,
+          "street3": addressInfo.street3,
+          "zip": addressInfo.zip
+        },
+        "shippingAddressId": addressInfo.id
+      };
+    console.log(body);
+  }
+
+  function callCreateShipment(addressInfo){
+    LiferayApi('/o/headless-commerce-admin-shipment/v1.0/shipments', {
+      method: 'POST', 
+      body: {
+        "orderId": orderItemData.orderId,
+        "shipmentItems": [
+          {
+            "orderItemId": orderItemData.id,
+            "quantity": shipmentQuantity,
+            "shipmentExternalReferenceCode": "",
+            //"unitOfMeasureKey": "s",
+            "validateInventory": true,
+            "warehouseId": warehouseid
+          }
+        ],
+        "shippingAddress": {
+          "city": addressInfo.city,
+          "countryISOCode": addressInfo.countryISOCode,
+          "description": addressInfo.description,
+          "id": addressInfo.id,
+          "latitude": addressInfo.latitude,
+          "longitude": addressInfo.longitude,
+          "name": addressInfo.name,
+          "phoneNumber": addressInfo.phoneNumber,
+          "regionISOCode": addressInfo.regionISOCode,
+          "street1": addressInfo.street1,
+          "street2": addressInfo.street2,
+          "street3": addressInfo.street3,
+          "zip": addressInfo.zip
+        },
+        "shippingAddressId": addressInfo.id
+      }
+    })
+    .then((result) => {
+      console.log("Create Shipment");
+      console.log(result);
+    })
+    .catch(console.log)
+  }
+
+  useEffect(() => {
     getAccountAddresses(idaccount);
-
   }, []);
 
   return (   

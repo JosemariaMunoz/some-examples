@@ -11,6 +11,8 @@ function ComponentTwo(props) {
 
   const intl = useIntl();
 
+  const { shipmentQuantity } = props.store;
+
   return (  
 
     <Box sx={{ mb: 2 }}>
@@ -39,6 +41,7 @@ function ComponentTwo(props) {
               }}
               sx={{ mt: 1, mr: 1 }} 
               color="primary"
+              disabled={shipmentQuantity<=0?true:false}
               >
             {intl.formatMessage({id: 'shipment-confirmation'})}
             </Button>

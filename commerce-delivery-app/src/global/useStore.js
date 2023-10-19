@@ -9,7 +9,8 @@ const initialState = {
   shipmentQuantity: 0,
   idchannel: '',
   idaccount: '',
-  warehouseId: ''
+  warehouseId: '',
+  createShipment: false
 };
 
 function reducer(state, action) {

@@ -17,7 +17,7 @@ import ComponentOne from './components/ComponentOne';
 import ComponentTwo from './components/ComponentTwo';
 import ComponentThree from './components/ComponentThree';
 
-function App({idchannel, idaccount, warehouseid}) {
+function App({idchannel, idaccount, warehouseid, createShipment}) {
 
   const intl = useIntl();
   const [store, dispatch] = useStore();
@@ -26,10 +26,12 @@ function App({idchannel, idaccount, warehouseid}) {
   console.log(idchannel);
   console.log(idaccount);
   console.log(warehouseid);
+  console.log(createShipment);
 
   store.idchannel = idchannel;
   store.idaccount = idaccount;
   store.warehouseid = warehouseid;
+  store.createShipment = createShipment;
   
   const steps = [
     {

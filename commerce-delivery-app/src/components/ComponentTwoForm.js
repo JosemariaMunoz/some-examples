@@ -57,9 +57,15 @@ function ComponentTwoForm(props) {
 
   const handleChange = (event: Event, newValue: number) => {
     setValue(newValue);
-    props.store.shipmentQuantity = newValue;
+    //props.store.shipmentQuantity = newValue;
+    handleShipmentQuantity(newValue);
     setProgress(newValue % itemsPerTruck);
   };
+
+  function handleShipmentQuantity(value) {
+    props.dispatch({ type: 'SHIPMENT_QUANTITY', value });
+    
+  }
 
   const marks = [
     {
@@ -219,7 +225,9 @@ function ComponentTwoForm(props) {
               <Paper elevation={3} >
                 <Grid container>
                   <Grid item xs={8}>
-                    <img src={truck} alt="logo" width="70%" align="bottom" style={{ paddingLeft: "40px" }} />
+                      <img src={truck} 
+                      style={(progress===0)?imgStyles.imageGreen:imgStyles.imageOriginal}               
+                      alt="logo" width="70%" align="bottom" />
                   </Grid>
                   <Grid item xs={4} style={{margin: "auto"}}>
                     <CircularProgressWithLabel value={progress} />
@@ -230,7 +238,7 @@ function ComponentTwoForm(props) {
                      Using {Math.ceil(value / itemsPerTruck)}x truck/s
                     </Typography>
                     <Typography variant="h5" gutterBottom>
-                     Still {100-progress}% to complete current truck
+                     Still {100-progress}% to complete {(progress===0)?"NEXT":"CURRENT"}  truck
                     </Typography>
                 </Box>
               </Paper>
@@ -241,4 +249,16 @@ function ComponentTwoForm(props) {
   );
 }
 
+const imgStyles = {
+  imageGreen: {
+    filter: "invert(28%) sepia(100%) hue-rotate(59deg) saturate(3)",
+    paddingLeft: "40px"
+  },
+  imageOriginal: {
+    paddingLeft: "40px"
+  }
+};
+
 export default ComponentTwoForm;
+
+

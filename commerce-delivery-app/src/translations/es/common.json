@@ -1,3 +1,18 @@
 {
-    "hello-world": "Hola Mundo"
+    "hello-world": "Hola Mundo",
+    "step-one": "Selección de Producto",
+    "step-one-description": "Por favor, seleccione un producto a enviar haciendo click en el producto",
+    "step-two": "Envío de Producto",
+    "step-two-description": "Por favor, seleccione el número de elementos a enviar",
+    "step-three": "Confirmación de envío",
+    "step-three-description": "Por favor, este es el resumen y la confirmación de la operación",
+    "id": "id",
+    "next": "Siguiente",
+    "back": "Volver",
+    "add-more-to-truck": "Completar el camión con otros productos",
+    "form-step-two": "form-step-two",
+    "number-of-items": "Selecciona el número de elementos a enviar",
+    "print": "Imprimeir Confirmación",
+    "start-again": "Comenzar de nuevo",
+    "shipment-confirmation": "Confirmación de envío"
 }

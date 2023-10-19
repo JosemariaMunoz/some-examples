@@ -53,7 +53,8 @@ class BaseReactApp extends HTMLElement {
           <App 
             idchannel={this.getAttribute('idchannel')} 
             idaccount={this.getAttribute('idaccount')}
-            warehouseid={this.getAttribute('warehouseid')}/>
+            warehouseid={this.getAttribute('warehouseid')}
+            createShipment={this.getAttribute('createShipment')}/>
         </ThemeProvider>
       </IntlProvider>
     );
