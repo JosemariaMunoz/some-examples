@@ -1,0 +1,14 @@
+assemble:
+    - from: build/static
+      into: static
+admin-js-for-structured-content-contribution-cx:
+    name: Admin JS For Structured Content Contribution Client Extension
+    scriptElementAttributes:
+        async: true
+        data-attribute: value
+        data-senna-track: permanent
+        fetchpriority: low
+    type: globalJS
+    url: global.*.js
+    scope: instance
+    scriptLocation: bottom
